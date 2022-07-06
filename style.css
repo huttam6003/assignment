@@ -172,3 +172,20 @@ form {
     outline: none;
 
 }
+
+.flex-donate {
+    display: flex;
+    margin: 100px;
+
+
+}
+
+.width-donate {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.width-donate img {
+    width: 100%;
+
+}
