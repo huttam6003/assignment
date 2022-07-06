@@ -22,7 +22,7 @@ h1 {
     text-align: center;
 }
 
-.wmp {
+.half-width {
     width: 50%;
     margin: auto;
     padding-bottom: 30px;
@@ -130,5 +130,45 @@ hr {
     background-repeat: no-repeat;
     background-position: 20px 50px;
     background-size: 50px;
-    background-color: rgb(255, 225, 252);
+    background-color: rgb(219, 255, 245);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+
+}
+
+#padding {
+    padding-bottom: 250px;
+}
+
+.padding-b {
+    margin-bottom: 100px;
+}
+
+form {
+    background-color: rgb(254, 227, 242);
+    padding: 50px 150px;
+    display: inline;
+}
+
+#input {
+    background-color: rgb(199, 230, 255);
+    border-width: 0px;
+    border: none;
+    outline: none;
+}
+
+#button {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border-width: 0px;
+    border: none;
+    outline: none;
+
 }
