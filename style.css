@@ -20,15 +20,55 @@ h1 {
 
 .align {
     text-align: center;
+}
+
+p {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.width {
     color: white;
     padding-top: 150px;
+    margin-bottom: 100px;
 }
 
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
+    padding: 10px 20px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+
+.flex {
+    display: flex;
+    margin-left: 28%;
+
+}
+
+.flex h2 {
+    padding-left: 5%;
+}
+
+.bolt {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.gray {
+    color: gray;
+}
+
+.a {
+    width: 5%;
+
+    border-radius: 10px;
+}
+
+hr {
+    width: 50%;
+    margin-bottom: 30px;
 }
