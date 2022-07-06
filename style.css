@@ -22,7 +22,7 @@ h1 {
     text-align: center;
 }
 
-p {
+.wmp {
     width: 50%;
     margin: auto;
     padding-bottom: 30px;
@@ -49,10 +49,6 @@ p {
 
 }
 
-.flex h2 {
-    padding-left: 5%;
-}
-
 .bolt {
     font-weight: 700;
     font-size: 40px;
@@ -62,13 +58,77 @@ p {
     color: gray;
 }
 
-.a {
-    width: 5%;
-
-    border-radius: 10px;
+#cg {
+    color: rgb(146, 146, 146);
 }
 
 hr {
     width: 50%;
     margin-bottom: 30px;
+    color: rgb(110, 109, 109);
+}
+
+.margin {
+    margin-bottom: 100px;
+}
+
+#color {
+    color: red;
+    border: 2px solid red;
+    background-color: rgb(248, 232, 232);
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+
+.price-item {
+    background-color: rgb(240, 238, 238);
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: rgb(111, 111, 111);
+
+}
+
+.price-ite {
+    background-color: rgb(210, 206, 206);
+}
+
+.food-item {
+    padding: 120px 50px 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+
+}
+
+.flex-two {
+    display: flex;
+    margin: 3% 10%;
+}
+
+#bg-image-1 {
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+    background-position: 20px 50px;
+    background-size: 50px;
+    background-color: rgb(237, 241, 255);
+}
+
+#bg-image-2 {
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+    background-position: 20px 50px;
+    background-size: 50px;
+    background-color: rgb(255, 225, 252);
+
+}
+
+#bg-image-3 {
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+    background-position: 20px 50px;
+    background-size: 50px;
+    background-color: rgb(255, 225, 252);
 }
