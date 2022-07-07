@@ -139,7 +139,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    position: fixed;
+    padding: 10px 0px;
 
 }
 
@@ -149,6 +149,14 @@ footer {
 
 .padding-b {
     margin-bottom: 100px;
+}
+
+.margin-a {
+    margin: 100px 15%;
+}
+
+.margin-b {
+    margin: 100px 35%;
 }
 
 form {
